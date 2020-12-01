@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Simple File Uploader</title>
+  <meta name="description" content="Simple File Uploader">
+  <meta name="author" content="Marjan Simic">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 25%">
+        <h4>Simple File Uploader</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 5%">
+        <form action="http://localhost:8080/upload" method="POST" enctype="multipart/form-data">
+          <label for="file">Your File</label>
+          <input type="file" name="file" class="u-full-width">
+          <input type="submit" name="upload" class="button-primary">
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
